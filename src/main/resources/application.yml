@@ -1,0 +1,15 @@
+spring:
+  mvc:
+    view:
+      prefix: /
+      suffix: .html
+
+server:
+  servlet:
+    context-path: /
+  port: 8080
+
+
+github:
+  public-repo-url: https://api.github.com/repositories
+  public-repo-commits-url: https://api.github.com/repos/{owner}/{repo}/commits
